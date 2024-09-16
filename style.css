@@ -1,0 +1,46 @@
+.main {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    background-color: white;
+    margin: 100px;
+    padding: 60px;
+    border-radius: 20px 5px 20px 5px;
+    opacity: 0.5;
+    transition: 600ms;
+}
+
+body {
+    background-image:image-set("Bg.jpg");
+    background-size:cover;
+    font-family: prompt;
+}
+
+.input {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-color: rgb(179, 246, 255);
+    width: 60%;
+}
+
+input:focus {
+    
+    outline: none;
+}
+
+.button {
+    padding: 5px;
+    width: 70%;
+    border-radius: 20px;
+    height: 50%;
+    background-color: rgb(147, 251, 255);
+    color: black;
+    border: none;
+    transition: 300ms;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
